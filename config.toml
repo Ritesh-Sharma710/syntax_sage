@@ -1,0 +1,33 @@
+base_url = "https://example.com"
+title = "The Syntax Sage"
+description = "Full Stack Developer & Cyber Security Enthusiast"
+default_language = "en"
+
+theme = "zap"
+
+[extra]
+keywords = "fullstack, developer, cybersecurity, zola"
+author = "Syntax Sage"
+# Theme specific usage
+# See https://github.com/jimmyff/zola-zap for more config options
+
+# Add menu items
+[[extra.menu_links]]
+name = "Home"
+url = "/"
+icon = "home.svg"
+
+[[extra.menu_links]]
+name = "Blogs"
+url = "/posts"
+icon = "chat.svg"
+
+[[extra.menu_links]]
+name = "Projects"
+url = "/projects"
+icon = "color-palette.svg"
+
+[[extra.menu_links]]
+name = "Connect"
+url = "/connect"
+icon = "rss.svg"

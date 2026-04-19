@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COMMIT to The Process - THE SYNTAX SAGE</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-gray-100 min-h-screen flex flex-col">
+    <!-- Space Background -->
+    <canvas id="spaceCanvas"></canvas>
+
+    <!-- Header Section  -->
+    <header class="py-6 px-4 md:px-8 lg:px-12">
+        <div class="center">
+            <h1
+                class="text-4xl md:text-5xl font-extrabold text-teal-400 mb-4 md:mb-0 tracking-wider text-center w-full md:w-auto">
+                THE SYNTAX SAGE<br class="hidden sm:block" />
+            </h1>
+            <nav class="w-full md:w-auto mt-4 md:mt-0">
+                <ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-lg font-medium">
+                    <li><a href="index.html"
+                            class="text-gray-300 hover:text-teal-300 transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-white/10">Home</a>
+                    </li>
+                    <li><a href="blogs.html"
+                            class="text-teal-300 transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-white/10">Blogs</a>
+                    </li>
+                    <li><a href="projects.html"
+                            class="text-gray-300 hover:text-teal-300 transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-white/10">Projects</a>
+                    </li>
+                    <li><a href="connect.html"
+                            class="text-gray-300 hover:text-teal-300 transition duration-300 ease-in-out px-3 py-2 rounded-md hover:bg-white/10">Connect</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow p-4 flex justify-center">
+        <div class="bento-grid w-full max-w-4xl fade-in-section">
+
+            <!-- Navigation Breadcrumb -->
+            <div class="bento-item md:col-span-3 py-4 flex items-center gap-2 text-gray-400 text-sm reveal fade-bottom">
+                <a href="blogs.html" class="hover:text-teal-400 transition-colors">&larr; Back to Blogs</a>
+                <span>/</span>
+                <span class="text-teal-400">Featured Post</span>
+            </div>
+
+            <!-- Blog Header -->
+            <div class="bento-item md:col-span-3 text-center py-12 reveal fade-bottom delay-100">
+                <div class="flex justify-center gap-2 mb-4">
+                    <span
+                        class="px-3 py-1 bg-teal-500/20 text-teal-300 text-xs font-bold rounded-full uppercase">Commitment</span>
+                    <span
+                        class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-bold rounded-full uppercase">Consistency</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                    COMMIT <br class="hidden md:block" /> <span class="text-gradient">TO THE PROCESS</span>
+                </h1>
+                <div class="flex items-center justify-center gap-4 text-sm text-gray-400">
+                    <div class="flex items-center gap-2">
+                        <img src="https://ui-avatars.com/api/?name=Syntax+Sage&background=0D9488&color=fff&size=64"
+                            class="w-8 h-8 rounded-full border border-gray-600" alt="Author">
+                        <span>By Syntax Sage</span>
+                    </div>
+                    <span>&bull;</span>
+                    <span>July 15, 2025</span>
+                    <span>&bull;</span>
+                    <span>5 min read</span>
+                </div>
+            </div>
+
+            <!-- Blog Content -->
+            <div class="bento-item md:col-span-3 p-8 md:p-12 reveal zoom-in delay-200">
+                <article class="prose prose-invert prose-lg max-w-none">
+                    <p class="lead text-xl text-gray-300 mb-8">
+                        LOREM
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-teal-400 mb-4 mt-8">INTRO</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        IPSUM<strong> EMPHASIS </strong>. BABBU MAN
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-teal-400 mb-4 mt-8">DOWNSIGHTS</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        HI HELLO
+                    </p>
+
+                    <div class="my-8 p-6 bg-black/30 border-l-4 border-teal-500 rounded-r-lg italic text-gray-400">
+                        FACTS KUCH
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-teal-400 mb-4 mt-8">CONCLUDING PARA</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        As a developer, staying relevant means adapting. Focus on:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300 mb-8 ml-4">
+                        BULLET WULLET STEPS
+                    </ul>
+
+                    <p class="text-gray-300 mb-4">
+                        CONCLUDE ONELINE SUVICHAR
+                    </p>
+                </article>
+
+                <div class="mt-12 pt-8 border-t border-gray-800 flex justify-between items-center">
+                    <div class="text-gray-400 text-sm">
+                        Share this article:
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Copy Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Posts -->
+            <div class="bento-item md:col-span-3 bg-transparent border-none p-0 mt-8 reveal fade-bottom delay-300">
+                <h3 class="text-2xl font-bold text-white mb-6">Read Next</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bento-item hover:border-teal-500/50 cursor-pointer group"
+                        onclick="window.location.href='#'">
+                        <h4 class="text-xl font-bold text-white group-hover:text-teal-400 transition-colors mb-2">
+                            Mastering Async/Await</h4>
+                        <p class="text-gray-400 text-sm">TO BE DECIDED .</p>
+                    </div>
+                    <div class="bento-item hover:border-teal-500/50 cursor-pointer group"
+                        onclick="window.location.href='#'">
+                        <h4 class="text-xl font-bold text-white group-hover:text-teal-400 transition-colors mb-2">CSS
+                            Grid vs Flexbox</h4>
+                        <p class="text-gray-400 text-sm">FUTURE TOPICS.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="py-6 px-4 md:px-8 lg:px-12 mt-auto">
+        <div class="max-w-6xl mx-auto text-center text-gray-400 text-sm">
+            &copy; 2025 THE SYNTAX SAGE. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
