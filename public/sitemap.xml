@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://example.com/</loc>
+    </url>
+    <url>
+        <loc>https://example.com/connect/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/posts/</loc>
+    </url>
+    <url>
+        <loc>https://example.com/posts/commit-to-the-process/</loc>
+        <lastmod>2025-07-02</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/posts/mastering-async-js/</loc>
+        <lastmod>2025-07-01</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/posts/understanding-css-grid/</loc>
+        <lastmod>2025-06-20</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/posts/zen-of-python/</loc>
+        <lastmod>2025-06-10</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/projects/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+</urlset>
